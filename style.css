@@ -1,0 +1,210 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
+  gap: 1rem;
+}
+
+.nav ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav img {
+  width: 200px;
+  object-fit: contain;
+}
+
+.nav ul li {
+  list-style-type: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-btn {
+  background-color: black;
+  color: white;
+  padding: 1.2rem 3rem;
+  border-radius: 50px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+/* read our blog  */
+.read-blog {
+  padding: 5rem 0;
+  background-image: url('https://cdn.backpacker.com/wp-content/uploads/2014/11/lit-up-tent-against-night-sky.jpg');
+  /* object-fit: contain; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 2rem 0;
+  border-radius: 30px;
+
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-left: 4rem;
+    color: white;
+}
+
+
+/* blogs */
+
+.grid {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    padding: 4rem 0;
+    max-width: 1200px;
+}
+
+.blog-image {
+    width: 100%;
+    object-fit: cover;
+    height: 70%;
+}
+
+.blog {
+    background-color: #f2f2f2;
+    width: 350px;
+    justify-self: center;
+    padding-bottom: 1rem;
+    border-radius: 0 0 10px 10px;
+}
+
+.blog-title {
+    padding-top: 10px;
+}
+
+.blog-link {
+    display: block;
+}
+
+.blog-date {
+    padding: 10px 0;
+    display: block;
+}
+
+.blog-info {
+    padding: 0 1rem;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-btn {
+    padding: 0.7rem 1.2rem;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+.pagination-btn:hover {
+    padding: 0.7rem 1.2rem;
+    outline: none;
+    border: none;
+    background-color: rgb(200, 200, 200);
+}
+
+/* socials */
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social ul {
+    display: flex;
+    gap: 10px;
+}
+
+.social ul li {
+    list-style-type: none;
+}
+
+.social ul li a {
+    text-decoration: none;
+}
+
+.social .left {
+}
+
+.footer {
+    background-color: #F6F7F6;
+}
+
+/* subscribe */
+
+
+.subscribe {
+    color: black;
+    margin: 4rem 0;
+    padding: 1rem 0;
+
+}
+
+.subscribe .footer-heading {
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.subscribe .footer-description {
+    line-height: 2rem;
+}
+
+.subscribe .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subscribe .form-container .input, .btn-submit {
+    padding: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-container .left {
+    flex: 0.7;
+}
+
+.social {
+    background-color: black ;
+    color: white;
+    height: 150px;    
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    
+}
